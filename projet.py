@@ -5,6 +5,7 @@ def somme (T):
 	return S
 
 Data=[1,3,5]
+
 som=sum(Data)
 print('la somme est:',som)
 
@@ -12,4 +13,11 @@ print('la somme est:',som)
 print('la somme est:',sum(Data) )
 print('la Min est:',min(Data))
 print('la max est:',max(Data))
+
+if Data :	
+	print('la somme est:',sum(Data) )
+	print('la Min est:',min(Data))
+	print('la max est:',max(Data))
+else :
+	print ('dossier est vide')
 
